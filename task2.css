@@ -1,0 +1,289 @@
+.container{
+    width: 80vw;
+    margin: 0 auto
+}
+
+/* for image section */
+.circle-logo{
+Height: 65px;
+display: flex;
+margin-top: 2%;
+}
+/* for navbar section */
+.nav{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2%;
+
+}
+
+list ul{
+    text-align:center;
+     top: 37px;
+}
+.list ul li{
+     text-decoration: none;
+    display: inline;
+    font-size: 1.875em;
+    cursor:pointer;
+    padding: 10px;
+    font-family: 'inter';
+    color: #000000;
+}
+.list ul li:hover{
+    text-decoration: underline blue;
+}
+
+/* for account */
+.active{
+color: #05427B !important;
+}
+.Active{
+    text-decoration: none !important;
+    width: 148px;
+    height: 59px;
+    background: #05427B;
+    border: 2px solid;
+    padding: 15px !important;
+    border-radius: 9px;
+    color: white !important;
+    }
+/* Outer-image box */
+.Outer-box{
+    display: flex;
+    justify-content: space-between;
+    width: 80vw;
+    height:auto ;
+}
+/* Image Information */
+.box{
+    width:50%;
+    height: auto;
+    font-family: Poppins;
+}
+.box h1{
+    font-size: 40px;
+    color: #000000;
+
+    
+}
+.box span{
+     background: #05427B;
+    color: #ffff;
+    padding: 10px;
+    border-radius: 9px;
+  }
+
+  /* child Image */
+.image-box{
+    width: 38vw;
+    height: 40vh;
+    margin-right: 8%;
+    border: 5px solid  #05427B;
+    border-radius: 0% 30% 0% 30%;
+    padding:20px;
+    
+  }
+.image-box img{
+    width: 600px;
+    height: 300px;
+   }
+/* service section */
+.service h1{
+   
+  margin-top: 10%;
+  text-align: center;
+  font-size: 2rem;
+  font-family: Poppins;
+   
+}
+#service{
+    text-decoration: underline #05427B;
+}
+.card-box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 80vw;
+    height: 80vh;
+}
+.card-box div{
+    
+    width: 320px;
+    height:220px;
+}
+.card{
+    background-color: #F5F5F5;
+    border: 1px solid blue;
+    border-radius: 3%;
+}
+.wordpress-img{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.wordpress-img img{
+    margin-top: 3%;
+    width:50px;
+    height:51.34px;
+    border: 2px solid #00749A;
+    border-radius: 50%;
+}
+.wordpress-img span{
+    font-size: 1.5rem;
+    color: #767373;
+    text-align: center;
+    font-family: Inter;
+}
+
+
+
+.wordpress{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.wordpress img{
+    margin-left: 40%;
+    margin-top: 3%;
+    width:50px;
+    height:51.34px;
+    border: 2px solid #00749A;
+    border-radius: 50%;
+}
+.wordpress span{
+    font-size: 1rem;
+    color: #767373;
+    text-align: center;
+    font-family: Inter;
+    font-size: 1rem;
+}
+
+/* portfolio Section */
+.portfolio h1{
+text-align: center;
+font-size: 2rem;
+font-family: Inter;
+}
+#portfolio{
+    text-decoration: underline #00749A;
+}
+.portfolio-outer{
+    display: flex;
+    justify-content: space-around;
+    width: 80vw;
+    height: 60vh;
+    margin-top: 10%;
+}
+.inner{
+    width: 320px;
+    height:360px;
+    background-color: #FFFFFF;
+    border: 1px solid none;
+    
+    box-shadow: 0px 0.5px gray;
+}
+.inner img{
+   width: 40%;
+   height: 10%;
+}
+#portfolio-img{
+    height: 70%;
+    width: 100%;
+}
+.inner span{
+    float: right;
+    font-size: 2rem;
+    font-family: inter;
+    color: black;
+}
+.inner p{
+    color: gray;
+    font-size: 1rem;
+}
+/* Action to call section */
+.call-action{
+    background-color: #00749A;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    height: 50vh;
+    width: 80vw;
+}
+.call-action h1{
+    color: white;
+    font-size: 2rem;
+    font-family: Poppins;
+    margin-top: 8%;
+}
+.call-action span{
+    background-color: white;
+    color: #05427B;
+    padding: 10px;
+    border-radius: 9px;
+    width: 100px;
+    text-align: center;
+    margin-left: 45%;
+    margin-bottom: 10%;
+}
+
+/* footer section start here */
+.footer{
+    background-color: black;
+    display: flex;
+    color:white;
+    justify-content: space-between;
+    text-align: center;
+    height: 60vh;
+    width: 80vw; 
+}
+.curcle{
+    width: 40vw;
+}
+.curcle p{
+   font-family: Inter; 
+   width: 26vw;
+   line-height: 35px;
+   margin-left: 20%;
+}
+.curcle img{
+   
+    margin-top: 8%;
+}
+.subscribe{
+    width: 40vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.subscribe h1{
+    margin-top: 15%;
+    font-family: Inter;
+    font-size: 20px;
+   line-height:  35px;
+   font-weight: 500;
+   margin-right: 7%;
+    
+}
+.subscribe input{
+   width: 20vw;
+   margin-left: 20%;
+   background-color: black; 
+   color: white;
+   border: 1px solid white;
+   border-radius: 5px;
+   padding: 5px;
+}
+.subscribe button{
+    background-color: white;
+    color: #05427B;
+    padding: 10px;
+    border-radius: 9px;
+    width: 100px;
+    text-align: center;
+    margin-left: 40%;
+    margin-bottom: 20%;
+    font-family: Inter;
+}
